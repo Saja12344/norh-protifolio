@@ -95,8 +95,8 @@ img {
 }
 
 .nav-logo img {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
 }
 
@@ -226,11 +226,11 @@ img {
 }
 
 .avatar-ring {
-  width: 132px;
-  height: 132px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   background: #fff;
-  padding: 10px;
+  padding: 12px;
   box-shadow: var(--shadow-card);
   border: 1px solid var(--border-subtle);
 }
@@ -238,7 +238,7 @@ img {
 .avatar-logo {
   width: 100%;
   height: 100%;
-  border-radius: 18px;
+  border-radius: 50%;
   background: #fff;
   padding: 0;
   object-fit: contain;
@@ -449,6 +449,11 @@ img {
   width: 32px;
   height: 32px;
   color: var(--accent-purple);
+}
+
+.exp-icon__glyph--apple {
+  width: 26px;
+  height: 32px;
 }
 
 .exp-body h3 {
@@ -895,21 +900,24 @@ img {
 }
 
 .social-link {
-  color: var(--text-muted);
-  transition: var(--transition);
+  color: #6b7280;
+  transition: all 0.25s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: 28px;
+  height: 28px;
 }
 
 .social-icon {
   width: 28px;
   height: 28px;
   display: block;
+  fill: currentColor;
 }
 
 .social-link:hover {
-  color: var(--accent-purple);
+  color: #7c3aed;
   transform: translateY(-2px) scale(1.08);
 }
 
