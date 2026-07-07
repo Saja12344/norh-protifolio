@@ -583,7 +583,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
-  align-items: center;
+  align-items: start;
   margin-bottom: 100px;
   padding: 32px;
   background: var(--bg-content);
@@ -649,22 +649,19 @@ img {
 
 /* Project visuals */
 .project-visual {
-  position: relative;
-  z-index: 1;
   margin: 0;
-  border-radius: 12px;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
   overflow: visible;
-  background: #ffffff;
-  padding: 12px;
 }
 
 .project-visual picture,
 .project-visual img {
   width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
-  object-fit: contain;
-  object-position: center;
 }
 
 /* Mockups */
