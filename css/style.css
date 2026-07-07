@@ -902,6 +902,19 @@ img {
   transform: translateY(-2px);
 }
 
+.contact-social .behance-icon {
+  height: 18px;
+  width: auto;
+  display: block;
+  opacity: 0.72;
+  transition: opacity var(--transition), filter var(--transition);
+}
+
+.contact-social a:hover .behance-icon {
+  opacity: 1;
+  filter: brightness(0) saturate(100%) invert(52%) sepia(86%) saturate(2476%) hue-rotate(228deg) brightness(98%) contrast(93%);
+}
+
 .contact-copy {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.65);
