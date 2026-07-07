@@ -10,12 +10,18 @@
   <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
 <body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="icon-behance" viewBox="0 0 576 512"><path fill="currentColor" d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.8-87.8H0v354.4h171.8c64.4 0 124.9-30.2 124.9-102.9 0-44.8-21.6-77.4-64.7-93.7zM77.3 135.7H151c28.1 0 43.1 12.9 43.1 35.5 0 29.3-21.9 35.6-43.1 35.6H77.3V135.7zm82.4 233.7H77.3V256h82.4c34.2 0 53.4 13.3 53.4 38.9 0 27.9-26.2 74.5-53.4 74.5zM528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48 200.3c0 89.6-51.7 142-129.9 142-67.1 0-123.3-47.4-129.9-105.4l50.8-10.2c4.4 36.2 42.5 59.8 77.7 59.8 49.7 0 81.9-31.2 81.9-88.4V265h-81.9c-62.8 0-102.7-31-102.7-77.5 0-42.4 29.4-74.8 79.3-74.8 39.7 0 65.3 18.6 76.5 44.4h1.7l9.7-36.2h75.4l1 5.3zm-48.2 0c0 29.7-20 49.9-50.8 49.9-30.3 0-49.5-20.3-49.5-49.9 0-29.8 20.4-50 49.5-50 30.9 0 50.8 20.1 50.8 50z"/></symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.8V416z"/></symbol>
+    <symbol id="icon-envelope" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zm212.5 139.2l124-93.9c7.7-5.8 18.7-4.3 24.5 3.4s4.3 18.7-3.4 24.5l-124 93.9c-10.4 7.8-24.5 7.8-34.9 0l-124-93.9c-7.7-5.8-9.2-16.7-3.4-24.5s16.7-9.2 24.5-3.4l124 93.9zM48 136.7l111.6 83.7c20.7 15.6 49.1 15.6 69.8 0L341 136.7V400H48V136.7z"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 512 512"><path fill="currentColor" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28.1l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.3-11.1-28.1-6.9l-112 48C3.3 402.5-2.6 414.1 0 425.4l24 104C27.2 439.9 36.5 448 48 448h16c221.2 0 400-178.8 400-400v-16c0-11.5-8.1-20.8-18.6-23.4z"/></symbol>
+  </svg>
   <nav class="nav" id="nav">
     <a href="#home" class="nav-logo" aria-label="Home">
-      <img src="assets/logo.png" alt="Norah Logo" width="40" height="40">
+      <img src="assets/logo.svg" alt="Norah Masoud" width="36" height="36">
     </a>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -51,7 +57,7 @@
     <div class="profile-section">
       <div class="profile-avatar">
         <div class="avatar-ring">
-          <img src="assets/logo.png" alt="Norah Masoud Aloqayli" class="avatar-logo">
+          <img src="assets/logo.svg" alt="Norah Masoud Aloqayli" class="avatar-logo">
         </div>
       </div>
       <div class="profile-info">
@@ -95,8 +101,14 @@
         <h2 class="section-title">Experience</h2>
         <div class="experience-grid">
           <article class="exp-card">
-            <div class="exp-icon exp-icon-1">
-              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" fill="#8b5cf6" opacity="0.2"/><path d="M26.2 15.8c.3-2 1.9-3.6 3.4-3.8-.3 2.1-1.8 3.7-3.4 3.8z" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/><path d="M24.2 17.2c-2.2-.2-4 1.2-5 1.2-1.1 0-2.6-1.1-4.2-1.1-2.1 0-4.1 1.3-5.2 3.4-2.3 3.7-.6 9.1 1.6 11.9 1.1 1.5 2.3 3.1 4.1 3 1.6-.1 2.2-.9 4.1-.9 1.9 0 2.5.8 4.1.9 1.8 0 2.9-1.5 4-2.9 1.2-1.7 1.8-3.3 1.8-3.4 0 0-3.4-1.3-3.4-5.1.1-3.2 2.8-4.8 2.9-4.8-.1-.1-2.5-.9-4.2 1z" stroke="#6d28d9" stroke-width="2.3" stroke-linejoin="round"/></svg>
+            <div class="exp-icon">
+              <svg class="exp-icon__glyph" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="5" y="7" width="22" height="14" rx="2.5"/>
+                <path d="M2.5 24.5h27"/>
+                <path d="M12.5 21.5h7"/>
+                <path d="M11 12h4.5l1.5 2.5-1.5 2.5H11"/>
+                <path d="M17.5 12H20"/>
+              </svg>
             </div>
             <div class="exp-body">
               <h3>Apple Developer Academy</h3>
@@ -105,8 +117,13 @@
             </div>
           </article>
           <article class="exp-card">
-            <div class="exp-icon exp-icon-2">
-              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" fill="#8b5cf6" opacity="0.2"/><circle cx="20" cy="21" r="3.5" stroke="#6d28d9" stroke-width="2.5"/><path d="M13 33c0-3.5 3-6 7-6s7 2.5 7 6" stroke="#6d28d9" stroke-width="2.5" stroke-linecap="round"/><circle cx="30" cy="22" r="2.8" stroke="#8b5cf6" stroke-width="2.2"/><path d="M26 33c0-2.8 2-4.5 4-4.5s4 1.7 4 4.5" stroke="#8b5cf6" stroke-width="2.2" stroke-linecap="round"/></svg>
+            <div class="exp-icon">
+              <svg class="exp-icon__glyph" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12.5" cy="13" r="3"/>
+                <path d="M6.5 24c0-3.3 2.7-6 6-6s6 2.7 6 6"/>
+                <circle cx="21.5" cy="13.5" r="2.5"/>
+                <path d="M18 24c0-2.5 1.8-4.5 3.5-4.5s3.5 2 3.5 4.5"/>
+              </svg>
             </div>
             <div class="exp-body">
               <h3>Al-Amal Al-Manshoud Association</h3>
@@ -115,8 +132,12 @@
             </div>
           </article>
           <article class="exp-card">
-            <div class="exp-icon exp-icon-3">
-              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" fill="#8b5cf6" opacity="0.2"/><rect x="14" y="20" width="20" height="13" rx="2.5" stroke="#6d28d9" stroke-width="2.5"/><path d="M19 20v-3a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v3" stroke="#6d28d9" stroke-width="2.5" stroke-linecap="round"/><path d="M14 26h20" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/></svg>
+            <div class="exp-icon">
+              <svg class="exp-icon__glyph" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="7" y="12" width="18" height="12" rx="2"/>
+                <path d="M12 12V9.5A4 4 0 0 1 20 9.5V12"/>
+                <path d="M7 17h18"/>
+              </svg>
             </div>
             <div class="exp-body">
               <h3>Automotive Distribution &amp; Marketing</h3>
@@ -125,8 +146,10 @@
             </div>
           </article>
           <article class="exp-card">
-            <div class="exp-icon exp-icon-4">
-              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" fill="#6d28d9" opacity="0.15"/><path d="M24 12L28 20H36L29.5 25L32 34L24 29L16 34L18.5 25L12 20H20L24 12Z" stroke="#6d28d9" stroke-width="2" stroke-linejoin="round"/></svg>
+            <div class="exp-icon">
+              <svg class="exp-icon__glyph" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 6.5l2.8 5.6 6.2.9-4.5 4.4 1.1 6.2L16 20.8l-5.6 2.8 1.1-6.2-4.5-4.4 6.2-.9L16 6.5z"/>
+              </svg>
             </div>
             <div class="exp-body">
               <h3>Umm Al-Qura University</h3>
@@ -144,29 +167,29 @@
         <p class="skills-intro">I'm passionate about joining cross-functional teams where <span class="text-gradient">research meets product</span>.</p>
         <div class="skills-visual">
           <div class="skills-center-logo">
-            <img src="assets/logo.png" alt="Norah" width="72" height="72">
+            <img src="assets/logo.svg" alt="Norah" width="56" height="56">
           </div>
           <div class="skills-icons">
             <div class="skill-icon" title="User Research">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
             </div>
             <div class="skill-icon" title="Product Discovery">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/></svg>
             </div>
             <div class="skill-icon" title="Market Research">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V5M4 19h16M8 17V9M12 17V7M16 17v-5"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19V5M4 19h16M8 17V9M12 17V7M16 17v-5"/></svg>
             </div>
             <div class="skill-icon" title="UX Design">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20l12-12 4 4L8 24H4v-4z"/><path d="M14 4l6 6"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 20l12-12 4 4L8 24H4v-4z"/><path d="M14 4l6 6"/></svg>
             </div>
             <div class="skill-icon" title="Interviews">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="2" width="6" height="11" rx="3"/><path d="M12 13v3M8 22h8M10 18h4"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="9" y="2" width="6" height="11" rx="3"/><path d="M12 13v3M8 22h8M10 18h4"/></svg>
             </div>
             <div class="skill-icon" title="Analysis">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 18l4-6 4 3 5-8 3 5"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 18l4-6 4 3 5-8 3 5"/></svg>
             </div>
             <div class="skill-icon" title="Strategy">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
             </div>
           </div>
         </div>
@@ -282,17 +305,17 @@
       <p class="contact-text">Let's connect and build something meaningful together.</p>
       <a href="mailto:norah.masoud@hotmail.com" class="contact-email">norah.masoud@hotmail.com</a>
       <div class="contact-social">
-        <a href="https://www.behance.net/norahaloqayli" target="_blank" rel="noopener" aria-label="Behance">
-          <svg viewBox="0 0 54 24" width="30" height="22" fill="currentColor" aria-hidden="true"><path d="M3 2h8.5c4.2 0 7 2.2 7 5.7 0 2.3-1.1 4-3 4.8 2.4.9 3.9 2.8 3.9 5.5 0 4-3.2 6.8-8.2 6.8H3V2zm4.5 4.2v5h3.5c2 0 3.2-1 3.2-2.6 0-1.5-1.1-2.4-3-2.4h-3.7zm0 8.7v5.4h4c2.2 0 3.6-1.1 3.6-2.8 0-1.6-1.3-2.6-3.6-2.6h-4z"/><path d="M30 8.5h15v2.4H30V8.5z"/><path d="M32.5 13.2h10c3.2 0 5.2 1.8 5.2 4.6 0 2.9-2.1 4.8-5.4 4.8h-9.8v-9.4zm4.2 2.3v5h4.8c1.5 0 2.4-.8 2.4-2.1 0-1.3-.9-2-2.6-2h-4.6z"/></svg>
+        <a href="https://www.behance.net/norahaloqayli" target="_blank" rel="noopener" aria-label="Behance" class="social-link">
+          <svg class="social-icon" aria-hidden="true"><use href="#icon-behance"/></svg>
         </a>
-        <a href="https://www.linkedin.com/in/norah-masoud" target="_blank" rel="noopener" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        <a href="https://www.linkedin.com/in/norah-masoud" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link">
+          <svg class="social-icon" aria-hidden="true"><use href="#icon-linkedin"/></svg>
         </a>
-        <a href="mailto:norah.masoud@hotmail.com" aria-label="Email">
-          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <a href="mailto:norah.masoud@hotmail.com" aria-label="Email" class="social-link">
+          <svg class="social-icon" aria-hidden="true"><use href="#icon-envelope"/></svg>
         </a>
-        <a href="tel:+966534743227" aria-label="Phone">
-          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        <a href="tel:+966534743227" aria-label="Phone" class="social-link">
+          <svg class="social-icon" aria-hidden="true"><use href="#icon-phone"/></svg>
         </a>
       </div>
       <p class="contact-copy">&copy; 2026 Norah Masoud Aloqayli. All rights reserved.</p>
