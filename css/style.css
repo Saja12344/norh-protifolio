@@ -452,7 +452,7 @@ img {
 }
 
 .exp-icon__glyph--apple {
-  width: 26px;
+  width: 32px;
   height: 32px;
 }
 
@@ -895,30 +895,30 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 28px;
+  gap: 32px;
   margin-bottom: 0;
 }
 
 .social-link {
-  color: #6b7280;
+  color: #6B7280;
   transition: all 0.25s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
 }
 
 .social-icon {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   display: block;
   fill: currentColor;
 }
 
 .social-link:hover {
-  color: #7c3aed;
-  transform: translateY(-2px) scale(1.08);
+  color: #7C3AED;
+  transform: translateY(-2px);
 }
 
 .contact-copy {
