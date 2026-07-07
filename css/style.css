@@ -905,16 +905,6 @@ img {
   transform: translateY(-2px);
 }
 
-.social-icon--behance:hover {
-  color: var(--behance-blue);
-}
-
-.social-icon--behance img {
-  width: 24px;
-  height: 24px;
-  display: block;
-}
-
 .contact-copy {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.65);
